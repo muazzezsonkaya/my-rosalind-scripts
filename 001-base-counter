@@ -1,0 +1,12 @@
+Text = #copy your DNA string here
+ 
+Base = {}
+for char in Text:
+      if char in Base:
+        Base[char] +=1
+      else :
+        Base[char] = 1
+        
+  
+print(*Base.values())
+#this method prints only values in the way requested by the question.
